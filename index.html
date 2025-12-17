@@ -20,6 +20,12 @@
             box-sizing: border-box;
             color: #000;
         }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-size: 4.23mm;
+        }
         .name {
             text-align: center;
             font-size: 9.8756mm;
@@ -62,12 +68,6 @@
         div {
             font-size: 4.23mm;
         }
-        .education_date {
-            letter-spacing: 85px;
-        }
-        .project_date {
-            letter-spacing: 141px;
-        }
         .engineer {
             font-size: 4.23mm;
             margin-bottom: -10px;
@@ -105,9 +105,10 @@
     
     <div class="section">
         <div class="education">Education</div>
+            <div class="row">
             <span class="SIIT">Sirindhorn International Institute of Technology (SIIT)</span>
-            <span class="education_date">&nbsp&nbsp</span>
             <span>2024 - Present</span>
+            </div>
             <div class="engineer">Undergraduate Computer Engineer</div>
             <ul class="sectionendline">
                 <li>GPA: 3.74</li>
@@ -118,9 +119,10 @@
 
     <div class="section">
         <div class="project">Project & Experience</div>
-        <span class="AI"> AI Sign Language Translator</span>
-        <span class="project_date">&nbsp&nbsp</span>
-        <span>March 2025 - May 2025</span>
+        <div class="row">
+            <span class="AI"> AI Sign Language Translator</span>
+            <span>March 2025 - May 2025</span>
+        </div>
         <div class="engineer">Project Developer</div>
         <ul>
             <li>Developed an AI-based system to detect hand signs and translate them into text.</li>
@@ -129,26 +131,29 @@
         </ul>
         <div class="coursework">Relevant Coursework</div>
         <ul class="sectionendline">
-            <li>Introduction to Computers and Programming.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp
-                August 2024 - November 2024
+            <li>
+                <div class="row">
+                    <span>Introduction to Computers and Programming.</span>
+                    <span>August 2024 - November 2024</span>
+                </div>
             </li>
-            <li>Object-oriented Programming.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                January 2025 - May 2025
+            <li>
+                <div class="row">
+                    <span>Object-oriented Programming.</span>
+                    <span>January 2025 - May 2025</span>
+                </div>
             </li>
-            <li>Artificial Intelligence and Applications.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                January 2025 - May 2025
+            <li>
+                <div class="row">
+                    <span>Artificial Intelligence and Applications.</span>
+                    <span>January 2025 - May 2025</span>
+                </div>
             </li>
-            <li>Data Structures and Algorithms.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                August 2025 - November 2025
+            <li>
+                <div class="row">
+                    <span>Data Structures and Algorithms.</span>
+                    <span>August 2025 - November 2025</span>
+                </div>
             </li>
         </ul>
             <hr>
@@ -157,22 +162,23 @@
     <div class="section">
         <div class="cert">Certifications</div>
         <ul class="sectionendline">
-            <li>Web Design: From Beginner to Beyond - Udemy.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                October 2022
+            <li>
+                <div class="row">
+                    <span>Web Design: From Beginner to Beyond - Udemy.</span>
+                    <span>October 2022</span>
+                </div>
             </li>
-            <li>Python Programming for Beginner - Udemy.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp
-                January 2024
+            <li>
+                <div class="row">
+                    <span>Python Programming for Beginner - Udemy.</span>
+                    <span>January 2024</span>
+                </div>
             </li>
-            <li>Beginning C++ Programming - Udemy.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                June 2024
+            <li>
+                <div class="row">
+                    <span>Beginning C++ Programming - Udemy.</span>
+                    <span>June 2024</span>
+                </div>
             </li>
         </ul>
         <hr>
@@ -180,10 +186,11 @@
     <div class="section">
         <div class="cert">Leadership & Activities</div>
         <ul class="sectionendline">
-            <li>3rd place, Freshman Running Race - Thammasat Freshy Game.
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                &nbsp
-                October 2024
+            <li>
+                <div class="row">
+                    <span>3rd place, Freshman Running Race - Thammasat Freshy Game.</span>
+                    <span>October 2024</span>
+                </div>
             </li>
         </ul>
         <hr>
@@ -205,4 +212,3 @@
 
 </body>
 </html>
- 
